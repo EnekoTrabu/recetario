@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e182bd277bd395355c1975a669ea55f8",
+    "content-hash": "508682f8ee801bbef47a2eec644bd79d",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2173,6 +2173,111 @@
             }
         },
         {
+            "name": "drupal/adminimal_admin_toolbar",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/adminimal_admin_toolbar.git",
+                "reference": "8.x-1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/adminimal_admin_toolbar-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "d758b5070517b0be5ec71427dd3dbefeacd30a70"
+            },
+            "require": {
+                "drupal/admin_toolbar": "*",
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.9",
+                    "datestamp": "1548270780",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ted Slesinski",
+                    "homepage": "https://www.drupal.org/u/energee"
+                }
+            ],
+            "description": "Adminimal styling brought to admin toolbar.",
+            "homepage": "https://www.drupal.org/project/adminimal_admin_toolbar",
+            "support": {
+                "source": "http://cgit.drupalcode.org/adminimal_admin_toolbar",
+                "issues": "https://www.drupal.org/project/issues/adminimal_admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/adminimal_theme",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/adminimal_theme.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/adminimal_theme-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "af9cbce473d0bd9590889992200ed175cb7e1159"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1547996580",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "ANDiTKO",
+                    "homepage": "https://www.drupal.org/user/1428124"
+                },
+                {
+                    "name": "andrey.troeglazov",
+                    "homepage": "https://www.drupal.org/user/3145389"
+                },
+                {
+                    "name": "realityloop",
+                    "homepage": "https://www.drupal.org/user/139189"
+                }
+            ],
+            "description": "Drupal administration theme with modern minimalist design.",
+            "homepage": "https://www.drupal.org/project/adminimal_theme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/adminimal_theme",
+                "issues": "https://www.drupal.org/project/issues/adminimal_theme"
+            }
+        },
+        {
             "name": "drupal/config_filter",
             "version": "1.4.0",
             "source": {
@@ -3451,6 +3556,53 @@
             "homepage": "https://www.drupal.org/project/google_tag",
             "support": {
                 "source": "https://git.drupalcode.org/project/google_tag"
+            }
+        },
+        {
+            "name": "drupal/mayo",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/mayo.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mayo-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "8f925e2e98d8e5203a27b610574be059a753bfab"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1462820044",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mermentau",
+                    "homepage": "https://www.drupal.org/user/797068"
+                }
+            ],
+            "description": "Simple but fully customizable and colorable responsive layout theme.",
+            "homepage": "https://www.drupal.org/project/mayo",
+            "support": {
+                "source": "https://git.drupalcode.org/project/mayo"
             }
         },
         {
