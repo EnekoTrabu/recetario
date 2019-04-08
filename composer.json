@@ -42,6 +42,7 @@
         "drupal/stage_file_proxy": "^1.0@alpha",
         "drupal/token": "^1.5",
         "drupal/video_embed_field": "^2.0",
+        "drupal/views_slideshow": "^4.6",
         "drupal/webform": "^5.2",
         "drush/drush": "^9.0.0",
         "topfloor/composer-cleanup-vcs-dirs": "^1.0",
